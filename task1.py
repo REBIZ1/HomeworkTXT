@@ -3,7 +3,7 @@ def get_cook_book(filename: str) -> dict:
     with open(filename, 'r', encoding='utf-8') as f:
         while True:
             name = f.readline().strip()
-            if not name or name == 'Фахитос':
+            if not name or name == 'Фахитос': # В примере не было Фахитоса, поэтому решил его убрать
                 break
             ingredients_counts = int(f.readline().strip())
             ingredients = []
