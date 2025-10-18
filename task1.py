@@ -19,7 +19,7 @@ def get_cook_book(filename: str) -> dict:
     return cook_book
 
 
-for name, ing in get_cook_book('recipes.txt').items():
+for name, ing in get_cook_book('FilesTXT/recipes.txt').items():
     print(name)
     for i in ing:
         print(i)

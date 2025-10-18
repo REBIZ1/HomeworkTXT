@@ -20,7 +20,7 @@ def get_cook_book(filename: str) -> dict:
 
 
 def get_shop_list_by_dishes(dishes: list[str], person_count: int) -> dict:
-    cook_book = get_cook_book('recipes.txt')
+    cook_book = get_cook_book('FilesTXT/recipes.txt')
     menu = {}
 
     for dish in dishes:
